@@ -36,20 +36,18 @@
   background-size: contain;
   width: 40px;
   height: 25px;
-  position: absolute;
 
 }
 
 .publications__slider-btn--prev {
   background-image: url(../img/svg/prev.svg);
-  top: 25%;
-  left: 0%;
-  z-index: 5;
 }
 
 .publications__slider-btn--next{
   background-image: url(../img/svg/next.svg);
-  top: 25%;
-  right: -2%;
-  z-index: 5;
+}
+
+.another-content {
+  @include flex;
+  align-items: center;
 }
