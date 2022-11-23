@@ -1,0 +1,7 @@
+.company__container {
+  margin-bottom: 15rem;
+}
+
+.company__list {
+  @include flex-all-sb;
+}

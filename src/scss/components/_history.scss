@@ -1,0 +1,70 @@
+.history__inner {
+  @include flex;
+
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+
+.history__content {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  background-color: var(--accent--color);
+  max-width: 53.8rem;
+  max-height: 24.7rem;
+  padding: 5rem 4.2rem;
+}
+
+.history__content::before {
+  content: url(/img/svg/164.svg);
+  position: absolute;
+  bottom: -12%;
+  right: 12.3%;
+  z-index: 5;
+}
+
+.history__box {
+  margin-left: auto;
+
+}
+
+
+.history-content__paragraph {
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1em;
+  color: var(--title-color);
+}
+
+.history-content__text {
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.1em;
+  color: var(--title-color);
+}
+
+.history__wrapp {
+  @include flex-all-sb;
+  margin-bottom: 15rem;
+
+}
+
+.history-wrapp__text,
+.history-wrapp__paragraph {
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+  color: var(--text-color);
+}
+
+.history-wrapp__descr {
+  font-weight: 600;
+  font-size: 14.4rem;
+  line-height: 21.6rem;
+  color: rgba(52, 52, 52, 0.1);
+
+}

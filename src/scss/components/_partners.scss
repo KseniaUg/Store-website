@@ -1,0 +1,50 @@
+.partners {
+  @include flex;
+}
+
+
+.partners__dark {
+  height: 42.7rem;
+  width: 47%;
+  background-color: var(--accent--color);
+}
+
+.partners__light {
+  height: 39.7rem;
+  width: 54%;
+  background-color: var(--section-background);
+}
+
+.partners-dark__contetnt {
+  padding-top: 3.8rem;
+  width: 52rem;
+  margin-left: auto;
+  padding-right: 8rem;
+}
+
+.partners-dark__title {
+  margin: 0;
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: var(--title-color);
+}
+
+.partners-dark__paragraph {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.7rem;
+  color: var(--title-color);
+}
+
+.partners__content {
+  margin-bottom: 12.9rem;
+  width: 1270px;
+  height: 3rem;
+  background-color: var(--accent--color);
+}
+
+.partners-light__img {
+  margin-top: 3rem;
+}

@@ -1,0 +1,21 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Raleway", sans-serif;
+  --content-width: 1170px;
+  --content-fluid-width: 1440px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --container-fluid-width: calc(var(--content-fluid-width) + (var(--container-offset) * 2));
+
+  // colors
+  --title-color: #fff;
+  --text-color: #343434;
+  --btn-color: #FF9619;
+  --accent--color: #5B5B5B;
+  --form-backround: #A9C2BE;
+  --section-background: #CCB2A3;
+  --color-pagination: #686a70;
+  --input-border: #D1D1D1;
+}

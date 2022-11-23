@@ -1,0 +1,20 @@
+.galery__list {
+  @include flex-all-sb;
+
+  margin-bottom: 14rem;
+}
+
+.galery__logo {
+  @include flex;
+}
+
+
+.galery-logo_paragraph {
+  margin: 0;
+  margin-left: auto;
+  font-weight: 800;
+  font-size: 13rem;
+  line-height: 14.3rem;
+  letter-spacing: 0.13em;
+  color: var(--accent--color);
+}

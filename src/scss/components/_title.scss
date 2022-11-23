@@ -1,0 +1,12 @@
+.title {
+  margin: 0;
+  margin-bottom: 8rem;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 3.9rem;
+  color: var(--text-color);
+}
+
+.title::first-letter {
+  color: var(--btn-color);
+}

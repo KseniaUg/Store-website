@@ -1,0 +1,115 @@
+.price {
+  background-color: var(--form-backround);
+
+}
+
+.price__container {
+  @include flex;
+
+  position: relative;
+  margin-bottom: 17.8rem;
+}
+
+
+.price__right {
+  position: absolute;
+  top: 5%;
+  right: 9%;
+  width: 48rem;
+  height: 43rem;
+  padding: 2.5rem 5rem 1.7rem 5rem;
+  background-color: var(--title-color);
+}
+
+.price-right__form {
+  @include flex;
+
+  flex-direction: column;
+  width: 37.1rem;
+
+}
+
+.price-right__label {
+  @include flex;
+
+  flex-direction: column;
+}
+
+.price-right__paragraph {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: var(--btn-color);
+
+}
+
+.price-right__title {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 3.3rem;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+.form__input {
+  height: 4.4rem;
+  border-bottom: 1px solid var(--input-border);
+  padding-bottom: 0;
+}
+
+.price-right__label {
+  margin-bottom: 2.5rem
+}
+
+.price-right__checkbox {
+  @include flex;
+
+  margin-bottom: 3rem;
+
+}
+
+.price-right__text{
+  display: block;
+  width: 210px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  color: var(--text-color);
+  opacity: 0.5;
+}
+
+.price-right__click {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--input-border);
+  opacity: 0.5;
+
+}
+
+.price-right__btn {
+  max-width: 22rem;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+
+.price__left {
+  position: relative;
+}
+
+.price__left::before {
+  content: 'o';
+  position: absolute;
+  top: -10%;
+  right: 4%;
+  font-weight: 800;
+  font-size: 16rem;
+  line-height: 17.6rem;
+  color: var(--btn-color);
+  z-index: 5;
+
+}

@@ -1,0 +1,15 @@
+.header__container {
+  padding: 2.5rem 1.5 rem;
+}
+
+.header__list {
+  @include flex-all-sb;
+}
+
+.header-item__link {
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 2 rem;
+  text-transform: uppercase;
+  color: var(--text-color);
+}

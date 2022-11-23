@@ -1,0 +1,51 @@
+
+.hero-content__text {
+  margin-bottom: 6rem;
+  max-width: 27rem;
+  font-weight: 600;
+  font-size: 4.2rem;
+  line-height: 4.6 rem;
+  color: var(--title-color);
+
+}
+
+.hero-content__text::first-letter {
+  color: var(--btn-color);
+}
+
+.hero-box__paragraph {
+  margin-bottom: 3.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: var(--title-color);
+}
+
+.hero__content {
+  padding-top: 17.4rem;
+  margin-right: 3rem;
+}
+
+.hero__container {
+  @include flex;
+
+  height: 70rem;
+  margin-bottom: 19.2rem;
+}
+
+.hero__swiper {
+  @include flex-all-sb;
+
+  height: 73rem;
+  margin-top: 3.5rem;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+.hero {
+  background-color: var(--section-background);
+  height: 60.5rem;
+  margin-bottom: 25rem;
+}
+

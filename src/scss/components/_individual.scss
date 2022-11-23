@@ -1,0 +1,80 @@
+
+
+.individual {
+  @include flex;
+
+}
+
+.individual__blue {
+  @include flex;
+
+  justify-content: end;
+  width: 50%;
+  height: 40rem;
+  background-color: var(--form-backround);
+  background-image: url(/img/.individual.svg);
+}
+
+.individual__dark {
+  position: relative;
+  padding: 7rem 0 7rem 4rem;
+  width: 50%;
+  min-height: 43rem;
+  background-color: var(--text-color);
+}
+
+.individual__dark::before {
+  content: url(/img/svg/indiv.svg);
+  position: absolute;
+  top: -9%;
+  right: 34%;
+}
+
+.individual__content {
+  height: 3rem;
+  background-color: var(--text-color);
+  width: 1365px;
+  margin-left: auto;
+  margin-bottom: 17rem;
+}
+
+
+
+.individual__box {
+  width: 43rem;
+}
+
+.individual__img {
+  margin-top: 3rem;
+
+}
+
+.individual-dark__title {
+  margin-bottom: 3rem;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  color: var(--title-color);
+}
+
+.individual-dark__text {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1em;
+  color: var(--title-color);
+}
+
+.individual-dark__paragraph {
+  margin: 0;
+  margin-bottom: 3rem;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.1em;
+  color: var(--title-color);
+}
+
+
